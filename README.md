@@ -1,4 +1,5 @@
-\# 🚀 AI-Driven QA Automation Framework (UI + API + AI)
+
+\# 🚀 End-to-End QA Automation Framework (API + UI + CI/CD)
 
 
 
