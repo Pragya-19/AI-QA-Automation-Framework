@@ -1,14 +1,9 @@
 import requests
-
-BASE_URL = "https://jsonplaceholder.typicode.com"
+from utils.config import API_BASE_URL
+from utils.test_data import NEW_USER_PAYLOAD
 
 def get_users():
-    return requests.get(f"{BASE_URL}/users")
+    return requests.get(f"{API_BASE_URL}/users")
 
 def create_user():
-    payload = {
-        "name": "Pragya",
-        "username": "pragya19",
-        "email": "pragya@example.com"
-    }
-    return requests.post(f"{BASE_URL}/users", json=payload)
+    return requests.post(f"{API_BASE_URL}/users", json=NEW_USER_PAYLOAD)
