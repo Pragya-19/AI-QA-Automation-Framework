@@ -13,3 +13,7 @@ def test_create_user_missing_field():
     response = requests.post(f"{BASE_URL}/users", json=payload)
 
     assert response.status_code == 201
+
+    data = response.json()
+    assert "id" in data
+    assert data["name"] == "Pragya"
