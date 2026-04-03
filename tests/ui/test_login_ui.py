@@ -1,10 +1,10 @@
-from playwright.sync_api import Page
+from pages.login_page import LoginPage
 
-def test_login_success(page: Page):
-    page.goto("https://the-internet.herokuapp.com/login")
-    page.fill("#username", "tomsmith")
-    page.fill("#password", "SuperSecretPassword!")
-    page.click("button[type='submit']")
+def test_login_success(page):
+    login_page = LoginPage(page)
 
-    success_message = page.locator("#flash").inner_text()
-    assert "You logged into a secure area!" in success_message
+    login_page.load()
+    login_page.login("tomsmith", "SuperSecretPassword!")
+
+    message = login_page.get_message()
+    assert "You logged into a secure area!" in message
