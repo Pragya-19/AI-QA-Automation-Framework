@@ -113,18 +113,6 @@ QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 
 ├── utils/                # Config, test data, helpers
 
-│
-
-├── ai\_testing/           # AI-based test generation
-
-│
-
-├── reports/              # Test execution reports
-
-│
-
-├── requirements.txt      # Dependencies
-
 ├── pytest.ini            # Pytest configuration
 
 └── .github/workflows/    # CI/CD pipeline
@@ -224,27 +212,6 @@ pytest tests/ui
 
 
 \---
-
-
-
-\## 🤖 AI Testing Module
-
-
-
-This project includes an \*\*AI-assisted testing module\*\* that:
-
-
-
-\* Generates test cases from requirements
-
-\* Suggests edge cases and negative scenarios
-
-\* Improves test coverage using AI insights
-
-
-
-\---
-
 
 
 \## 🔁 CI/CD Integration
