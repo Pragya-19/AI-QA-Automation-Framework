@@ -1,5 +1,5 @@
 
-\# 🚀 End-to-End QA Automation Framework (API + UI + CI/CD)
+\# 🚀 QA-Automation-Framework-Pytest-Playwright-API-UI-CI
 
 
 
@@ -91,7 +91,7 @@ It is designed to simulate real-world quality engineering practices used in mode
 
 ```
 
-AI-QA-Automation-Framework/
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 
 │
 
