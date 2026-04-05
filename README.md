@@ -7,7 +7,7 @@
 
 
 
-This project demonstrates a scalable and modern QA automation framework integrating \*\*UI testing, API testing\*.
+This project demonstrates a scalable and modern QA automation framework integrating UI testing, API testing, and CI/CD workflows
 
 
 
@@ -104,13 +104,11 @@ QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 
 │
 
-├── api\_clients/          # API request handling logic
+├── api_clients/         # API request handling logic
 
 │
 
 ├── utils/                # Config, test data, helpers
-
-├── pytest.ini            # Pytest configuration
 
 └── .github/workflows/    # CI/CD pipeline
 
@@ -278,26 +276,4 @@ QA Automation Engineer | SDET | AI Testing Enthusiast
 
 
 \---
-
-
-
-\## ⭐ Final Note
-
-
-
-This project reflects a \*\*modern QA mindset\*\*, focusing not just on test execution, but on:
-
-
-
-\* System-level thinking
-
-\* Automation at scale
-
-\* AI-driven quality engineering
-
-
-
-\---
-
-
 
