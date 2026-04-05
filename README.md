@@ -2,276 +2,100 @@
 \# 🚀 QA-Automation-Framework-Pytest-Playwright-API-UI-CI
 
 
-
 \## 📌 Project Overview
 
-
-
 This project demonstrates a scalable and modern QA automation framework integrating UI testing, API testing, and CI/CD workflows
-
-
 
 It is designed to simulate real-world quality engineering practices used in modern product-based companies, focusing on automation, system thinking, and intelligent testing approaches.
 
 
-
 \---
-
 
 
 \## 🎯 Key Objectives
 
+To build an **end-to-end quality engineering solution** that goes beyond UI testing and validates the complete system:
 
+👉 UI → API → Data → CI/CD Pipeline
 
-\* Build a \*\*scalable automation framework\*\* from scratch
+---
 
-\* Validate \*\*end-to-end workflows (UI + API)\*\*
+## 🛠️ Tech Stack
 
-\* Integrate automation with \*\*CI/CD pipelines\*\*
+- Python
+- Playwright (UI Automation)
+- Pytest (Test Framework)
+- Requests (API Testing)
+- GitHub Actions (CI/CD)
 
+---
 
+## 📂 Project Structure
 
-\---
-
-
-
-\## 🧰 Tech Stack
-
-
-
-\* \*\*Language:\*\* Python
-
-\* \*\*UI Automation:\*\* Playwright
-
-\* \*\*API Testing:\*\* Postman, Requests (Python)
-
-\* \*\*Test Framework:\*\* Pytest
-
-\* \*\*Design Pattern:\*\* Page Object Model (POM)
-
-\* \*\*Version Control:\*\* Git + GitHub
-
-\* \*\*CI/CD:\*\* GitHub Actions
-
-
-
-
-\---
-
-
-
-\## 🌟 Key Features
-
-
-
-✔ End-to-end \*\*UI + API automation\*\*
-
-✔ Scalable framework using \*\*Page Object Model (POM)\*\*
-
-✔ Modular architecture for easy maintenance
-
-✔ AI-generated test cases for better coverage
-
-✔ Integration with CI/CD pipeline
-
-✔ Clean and structured codebase
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-
-
-```
 
 QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
-
 │
-
+├── pages/ # Page Object Model classes
 ├── tests/
+│ ├── ui/ # UI test cases
+│ ├── api/ # API test cases
+├── api_clients/ # API helper methods
+├── utils/ # Utilities and helpers
+├── conftest.py # Fixtures and setup
 
-│   ├── api/              # API test cases
 
-│   └── ui/               # UI test cases
+---
 
-│
+## ▶️ Running Tests
 
-├── pages/                # Page Object Model classes
+```bash
+python -m pytest
 
-│
+🔁 CI/CD Execution (GitHub Actions)
 
-├── api_clients/         # API request handling logic
+This framework is integrated with GitHub Actions to automatically run tests on every push.
 
-│
+📊 Test Execution Results
 
-├── utils/                # Config, test data, helpers
+Local Test Run
 
-└── .github/workflows/    # CI/CD pipeline
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI
+/screenshots/test-run.png
 
-```
+UI Automation
 
+🎥 Test Execution Video
 
+Watch Execution : QA-Automation-Framework-Pytest-Playwright-API-UI-CI
+/screenshots/video-login-successful.webm
 
-\---
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI
+/screenshots/video-negative-login.webm
 
+🧪 Sample Test Scenarios
+UI Test – Login Flow
+Navigate to login page
+Enter credentials
+Validate successful login
+Verify dashboard elements
+API Test – User Validation
+Send request to API endpoint
+Validate response status
+Verify response payload
 
+💡 Key Learnings
+Built maintainable automation using POM
+Integrated UI + API testing in one framework
+Implemented CI/CD pipeline for automated execution
+Understood real-world SDET workflow
 
-\## ⚙️ Setup Instructions
 
+👩‍💻 Author
 
+Pragya Kapil
 
-\### 1. Clone the repository
-
-
-
-```
-
-git clone https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI.git
-cd QA-Automation-Framework-Pytest-Playwright-API-UI-CI
-
-
-```
-
-
-
-\### 2. Install dependencies
-
-
-
-```
-
-pip install -r requirements.txt
-
-```
-
-
-
-\### 3. Install Playwright browsers
-
-
-
-```
-
-playwright install
-
-```
-
-
-
-\---
-
-
-
-\## ▶️ Running Tests
-
-
-
-\### Run all tests:
-
-
-
-```
-
-pytest
-
-```
-
-
-
-\### Run API tests:
-
-
-
-```
-
-pytest tests/api
-
-```
-
-
-
-\### Run UI tests:
-
-
-
-```
-
-pytest tests/ui
-
-```
-
-
-
-\---
-
-
-\## 🔁 CI/CD Integration
-
-
-
-The project uses \*\*GitHub Actions\*\* to:
-
-
-
-\* Automatically run tests on code push
-
-\* Ensure continuous quality validation
-
-\* Maintain build stability
-
-
-
-\---
-
-
-
-\## 📊 Sample Test Coverage (Example)
-
-
-
-\* Login functionality (UI + API validation)
-
-\* User workflows (create, update, fetch)
-
-\* End-to-end scenarios (login → dashboard → actions)
-
-
-
-\---
-
-
-
-\## 🔮 Future Enhancements
-
-
-
-\* Performance testing (JMeter / k6)
-
-\* Docker containerization
-
-\* Advanced AI validation for LLM-based apps
-
-\* Reporting dashboards (Allure / HTML reports)
-
-
-
-\---
-
-
-
-\## 🙋‍♀️ Author
-
-
-
-\*\*Pragya Kapil\*\*
 Linkedin Profile : https://www.linkedin.com/in/pragya-kapil-qa/
-QA Automation Engineer | SDET | AI Testing Enthusiast
-
-
+QA Automation Engineer | SDET | Playwright | API Testing
 
 \---
 
