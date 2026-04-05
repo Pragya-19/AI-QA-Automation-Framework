@@ -1,3 +1,6 @@
+## 🔁 CI/CD Status
+
+[[![QA Automation Tests](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml)]
 
 \# 🚀 **QA-Automation-Framework-Pytest-Playwright-API-UI-CI**
 
