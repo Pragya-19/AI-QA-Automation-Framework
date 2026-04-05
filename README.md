@@ -132,9 +132,7 @@ QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 
 git clone https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI.git
 cd QA-Automation-Framework-Pytest-Playwright-API-UI-CI
-pip install -r requirements.txt
-playwright install
-pytest
+
 
 ```
 
