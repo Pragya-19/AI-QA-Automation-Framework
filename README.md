@@ -7,7 +7,7 @@
 
 
 
-This project demonstrates a scalable and modern QA automation framework integrating \*\*UI testing, API testing, and AI-assisted test generation\*\*.
+This project demonstrates a scalable and modern QA automation framework integrating \*\*UI testing, API testing\*.
 
 
 
@@ -26,8 +26,6 @@ It is designed to simulate real-world quality engineering practices used in mode
 \* Build a \*\*scalable automation framework\*\* from scratch
 
 \* Validate \*\*end-to-end workflows (UI + API)\*\*
-
-\* Leverage \*\*AI tools to generate test cases and edge scenarios\*\*
 
 \* Integrate automation with \*\*CI/CD pipelines\*\*
 
@@ -55,7 +53,6 @@ It is designed to simulate real-world quality engineering practices used in mode
 
 \* \*\*CI/CD:\*\* GitHub Actions
 
-\* \*\*AI Integration:\*\* ChatGPT (for test case generation \& validation)
 
 
 
