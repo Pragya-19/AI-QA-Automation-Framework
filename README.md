@@ -270,7 +270,7 @@ The project uses \*\*GitHub Actions\*\* to:
 
 
 \*\*Pragya Kapil\*\*
-
+Linkedin Profile : https://www.linkedin.com/in/pragya-kapil-qa/
 QA Automation Engineer | SDET | AI Testing Enthusiast
 
 
