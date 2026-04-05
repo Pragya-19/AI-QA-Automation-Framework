@@ -147,9 +147,9 @@ AI-QA-Automation-Framework/
 
 ```
 
-git clone https://github.com/YOUR\_USERNAME/AI-QA-Automation-Framework.git
+git clone https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI.git
 
-cd AI-QA-Automation-Framework
+cd QA-Automation-Framework-Pytest-Playwright-API-UI-CI
 
 ```
 
