@@ -35,12 +35,20 @@ To build an **end-to-end quality engineering solution** that goes beyond UI test
 
 QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 │
+
 ├── pages/ # Page Object Model classes
+
 ├── tests/
-│ ├── ui/ # UI test cases
-│ ├── api/ # API test cases
+
+      │ ├── ui/ # UI test cases
+      │ ├── api/ # API test cases
+      
 ├── api_clients/ # API helper methods
+
 ├── utils/ # Utilities and helpers
+
+├── screenshotss/ # proof of execution
+
 ├── conftest.py # Fixtures and setup
 
 
@@ -84,6 +92,7 @@ Validate response status
 Verify response payload
 
 💡 Key Learnings
+
 Built maintainable automation using POM
 Integrated UI + API testing in one framework
 Implemented CI/CD pipeline for automated execution
@@ -95,6 +104,7 @@ Understood real-world SDET workflow
 Pragya Kapil
 
 Linkedin Profile : https://www.linkedin.com/in/pragya-kapil-qa/
+
 QA Automation Engineer | SDET | Playwright | API Testing
 
 \---
