@@ -3,6 +3,7 @@
 [[![QA Automation Tests](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml)]
 
 🚀 QA Automation Framework + AI Testing Orchestration
+
 🔹 End-to-End QA Pipeline · UI + API + AI
 
 A production-ready QA Automation Framework combining:
@@ -11,6 +12,8 @@ A production-ready QA Automation Framework combining:
 ✅ API Automation (Requests + Pytest)
 ✅ CI/CD Integration (GitHub Actions)
 🔥 AI-Powered Test Generation & Orchestration (Multi-Agent Pipeline)
+
+
 🧠 Problem Statement
 
 Traditional QA automation:
@@ -27,21 +30,31 @@ Faster and scalable QA workflows
 🏗️ Architecture Overview
 
 🔧 Tech Stack
+
 Layer	Tools
+
 UI Automation	Playwright, Pytest
+
 API Automation	Requests, Pytest
+
 Design Pattern	Page Object Model (POM)
+
 CI/CD	GitHub Actions
+
 AI Layer	Custom Multi-Agent Orchestrator
+
 Language	Python
 
 
 📂 Project Structure
 
 QA-Automation-Framework/
+
 │
 ├── tests/
+
 │   ├── ui/
+
 │   ├── api/
 
 │
@@ -99,6 +112,7 @@ Positive test cases
 Negative scenarios
 Edge cases
 
+
 📸 Example Output:
 
 
@@ -119,7 +133,8 @@ Review Agent
 Validates coverage
 Approves test quality
 
-📸 Pipeline Execution:
+
+📸 Pipeline Execution: screenshots/ai_orchestrator_pipeline_output.png
 
 
 🔁 CI/CD Pipeline
