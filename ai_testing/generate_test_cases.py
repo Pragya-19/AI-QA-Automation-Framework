@@ -1,5 +1,5 @@
 from pathlib import Path
-from ai_testing.prompt_templates import TEST_CASE_PROMPT
+from prompt_templates import TEST_CASE_PROMPT
 
 def generate_prompt_from_requirement(file_path: str):
     requirement = Path(file_path).read_text(encoding="utf-8")
