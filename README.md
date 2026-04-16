@@ -9,8 +9,11 @@
 A production-ready QA Automation Framework combining:
 
 ✅ UI Automation (Playwright + Pytest + POM)
+
 ✅ API Automation (Requests + Pytest)
+
 ✅ CI/CD Integration (GitHub Actions)
+
 🔥 AI-Powered Test Generation & Orchestration (Multi-Agent Pipeline)
 
 
@@ -27,6 +30,8 @@ Struggles with scalability and evolving requirements
 Automated test case generation
 Intelligent requirement analysis
 Faster and scalable QA workflows
+
+
 🏗️ Architecture Overview
 
 🔧 Tech Stack
@@ -53,9 +58,9 @@ QA-Automation-Framework/
 │
 ├── tests/
 
-│   ├── ui/
+      │   ├── ui/
 
-│   ├── api/
+      │   ├── api/
 
 │
 ├── pages/                # Page Object Model
@@ -77,22 +82,29 @@ QA-Automation-Framework/
 │
 └── .github/workflows/    # CI/CD pipeline
 
-🌐 UI Automation Testing
+
+
+🌐 
+UI Automation Testing
 Playwright-based automation
 Page Object Model (POM)
+
 
 Covers:
 Login flow
 Validation scenarios
 Negative test cases
 
+
 ✔ Features
 Cross-browser support
 Stable locators
 Clean test structure
 
+
 🔌 API Automation Testing
 Requests + Pytest
+
 Covers:
 Users endpoint
 CRUD operations
@@ -145,6 +157,7 @@ Automated test execution
 Headless browser runs
 Continuous validation
 
+
 📸 CI/CD Run:
 
 
@@ -165,25 +178,33 @@ Examples:
 video-login-successful.webm
 video-negative-login.webm
 
+
 ▶️ How to Run
 
 1. Clone Repo
+   
 git clone https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI.git
+
 cd QA-Automation-Framework-Pytest-Playwright-API-UI-CI
 
-3. Setup Environment
+2. Setup Environment
+   
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-5. Run Tests
+
+3. Run Tests
 pytest
 
-7. Run AI Testing
+
+4. Run AI Testing
 python ai_testing/generate_test_cases.py
 
-9. Run AI Orchestrator
+
+5. Run AI Orchestrator
 python ai_orchestrator/orchestrator.py
+
 
 🧪 Key Highlights
 
@@ -193,6 +214,7 @@ python ai_orchestrator/orchestrator.py
 ✔ Multi-Agent QA Orchestration
 ✔ Industry-level project structure
 
+
 🚀 Future Enhancements
 Allure Reporting Integration
 Parallel execution
@@ -201,10 +223,13 @@ LLM-based dynamic test execution
 Cloud test execution
 
 
+
 👩‍💻 Author
 
 Pragya Kapil
 
+
 QA Automation Engineer | AI Testing Enthusiast
+
 
 Linkedin :https://www.linkedin.com/in/pragya-kapil-qa
