@@ -3,16 +3,19 @@
 [[![QA Automation Tests](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml)]
 
 🚀 QA Automation Framework with AI Testing Orchestration
+
+
 🔹 End-to-End QA Pipeline · UI + API + AI
 
 
 
 A production-ready QA Automation Framework integrating:
 
-UI Automation (Playwright + Pytest + POM)
-API Automation (Requests + Pytest)
-CI/CD (GitHub Actions)
-AI-powered Test Generation & Multi-Agent Orchestration
+
+	UI Automation (Playwright + Pytest + POM)
+	API Automation (Requests + Pytest)
+	CI/CD (GitHub Actions)
+	AI-powered Test Generation & Multi-Agent Orchestration
 
 
 
@@ -20,9 +23,9 @@ AI-powered Test Generation & Multi-Agent Orchestration
 
 Modern QA faces:
 
-Manual test case creation
-Repetitive validation cycles
-Limited scalability with changing requirements
+	Manual test case creation
+	Repetitive validation cycles
+	Limited scalability with changing requirements
 
 👉 Result: Slow testing and reduced efficiency
 
@@ -32,12 +35,9 @@ Limited scalability with changing requirements
 
 This project introduces an AI-powered QA pipeline that:
 
-Automatically generates test cases
-Identifies edge cases and risks
-Validates test coverage using intelligent agents
-
-
-
+	Automatically generates test cases
+	Identifies edge cases and risks
+	Validates test coverage using intelligent agents
 
 
 🏗️ Architecture
@@ -50,7 +50,8 @@ Design Pattern: Page Object Model (POM)
 CI/CD: GitHub Actions
 AI Layer: Custom Multi-Agent System
 
-screenshots\architecture_overview.png
+
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/architecture_overview.png
 
 
 
@@ -59,23 +60,31 @@ screenshots\architecture_overview.png
 📂 Project Structure
 
 
+
 tests/
   	├── ui/
   	├── api/
 
+
 pages/              # Page Object Model
 
+
 api_clients/        # API abstraction
+
 
 utils/              # Helpers & configs
 
 
+
 ai_testing/         # AI test generation
+
 
 ai_orchestrator/    # AI pipeline (multi-agent)
 
 
+
 screenshots/        # Execution proof
+
 
 reports/            # Test outputs
 
@@ -106,6 +115,7 @@ Covers:
 🤖 AI Testing
 	🔹 Test Generation
 
+
 Automatically generates:
 
 	Positive scenarios
@@ -116,9 +126,9 @@ Automatically generates:
 
 📸 Output:
 
-screenshots\ai_orchestrator_pipeline_output.png
-screenshots\ai_generated_tests_execution.png
-screenshots\video-login-successful.webm
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ai_orchestrator_pipeline_output.png
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ai_generated_tests_execution.png
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/video-login-successful.webm
 
 
 
@@ -146,7 +156,7 @@ Headless test execution
 
 📸 CI/CD Run:
 
-screenshots\ci-cd-run.png
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ci-cd-run.png
 
 
 📊 Test Execution
@@ -156,36 +166,49 @@ Fast execution via Pytest
 
 📸 Output:
 
-screenshots\test-run.png
+
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/test-run.png
 
 
 ▶️ Run Locally
 
 git clone https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI.git
 
+
 cd QA-Automation-Framework-Pytest-Playwright-API-UI-CI
+
 
 python -m venv venv
 
+
 venv\Scripts\activate
+
 
 pip install -r requirements.txt
 
+
 pytest
 
-Run AI Modules
+
+
+Run AI Modules:
+
 python ai_testing/generate_test_cases.py
+
 
 python ai_orchestrator/orchestrator.py
 
 
+
 🏆 Key Highlights
+
 
 End-to-End Automation Framework
 UI + API + CI/CD Integration
 AI-driven Test Generation
 Multi-Agent QA Pipeline
 Scalable and maintainable architecture
+
 
 
 
@@ -198,10 +221,13 @@ LLM-based dynamic execution
 
 👩‍💻 Author
 
+
 Pragya Kapil
 
 
+
 QA Automation Engineer | Gen - AI Testing Enthusiast
+
 
 
 Linkedin :https://www.linkedin.com/in/pragya-kapil-qa
