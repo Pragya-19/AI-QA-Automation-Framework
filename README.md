@@ -43,15 +43,22 @@ This project introduces an AI-powered QA pipeline that:
 🏗️ Architecture
 
 🔧 Tech Stack
+
 Language: Python
+
 UI Automation: Playwright + Pytest
+
 API Testing: Requests + Pytest
+
 Design Pattern: Page Object Model (POM)
+
 CI/CD: GitHub Actions
+
 AI Layer: Custom Multi-Agent System
 
 
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/architecture_overview.png
+
+![Test Execution] (screenshots/architecture_overview.png)
 
 
 
@@ -62,7 +69,11 @@ QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/architecture_ove
 
 
 tests/
+
+
   	├── ui/
+
+	
   	├── api/
 
 
@@ -126,9 +137,9 @@ Automatically generates:
 
 📸 Output:
 
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ai_orchestrator_pipeline_output.png
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ai_generated_tests_execution.png
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/video-login-successful.webm
+![AI Orchestrator Pipeline](screenshots/ai_orchestrator_pipeline_output.png)
+![AI Generated Tests]screenshots/ai_generated_tests_execution.png
+
 
 
 
@@ -156,7 +167,7 @@ Headless test execution
 
 📸 CI/CD Run:
 
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/ci-cd-run.png
+![CI/CD Pipeline]/screenshots/ci-cd-run.png
 
 
 📊 Test Execution
@@ -167,7 +178,7 @@ Fast execution via Pytest
 📸 Output:
 
 
-QA-Automation-Framework-Pytest-Playwright-API-UI-CI/screenshots/test-run.png
+![Test Execution]screenshots/test-run.png
 
 
 ▶️ Run Locally
@@ -204,18 +215,26 @@ python ai_orchestrator/orchestrator.py
 
 
 End-to-End Automation Framework
+
 UI + API + CI/CD Integration
+
 AI-driven Test Generation
+
 Multi-Agent QA Pipeline
+
 Scalable and maintainable architecture
 
 
 
 
 🚀 Future Enhancements
+
 Allure Reporting
+
 Parallel execution
+
 Docker support
+
 LLM-based dynamic execution
 
 
