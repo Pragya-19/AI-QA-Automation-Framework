@@ -1,337 +1,160 @@
-\# 🚀 AI-Driven QA Automation Framework (UI + API + AI)
+## 🔁 CI/CD Status
+
+[[![QA Automation Tests](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI/actions/workflows/ci.yml)]
+
+\# 🚀 **QA-Automation-Framework-Pytest-Playwright-API-UI-CI**
+
+## Why this project matters
+
+This project demonstrates a real-world QA Automation Framework for modern SDET workflows.
+
+It covers:
+- UI Automation using Playwright
+- API Testing using Python
+- Page Object Model (POM) design
+- CI/CD execution using GitHub Actions
+
+The goal is to validate quality across UI, API, and automation pipeline levels.
 
 
+\## 📌** Project Overview**
 
-\## 📌 Project Overview
-
-
-
-This project demonstrates a scalable and modern QA automation framework integrating \*\*UI testing, API testing, and AI-assisted test generation\*\*.
-
-
-
+This project demonstrates a scalable and modern QA automation framework integrating UI testing, API testing, and CI/CD workflows
 It is designed to simulate real-world quality engineering practices used in modern product-based companies, focusing on automation, system thinking, and intelligent testing approaches.
 
+## Application Under Test
+
+This framework uses demo/sample applications to simulate real-world testing scenarios such as:
+
+- Login validation
+- Positive and negative test cases
+- User-related API validations
+
+This helps demonstrate practical automation design for QA and SDET roles.
 
 
 \---
-
 
 
 \## 🎯 Key Objectives
 
+To build an **end-to-end quality engineering solution** that goes beyond UI testing and validates the complete system:
+
+👉 UI → API → Data → CI/CD Pipeline
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Playwright (UI Automation)
+- Pytest (Test Framework)
+- Requests (API Testing)
+- GitHub Actions (CI/CD)
+
+---
+
+## 📂 Project Structure
 
 
-\* Build a \*\*scalable automation framework\*\* from scratch
-
-\* Validate \*\*end-to-end workflows (UI + API)\*\*
-
-\* Leverage \*\*AI tools to generate test cases and edge scenarios\*\*
-
-\* Integrate automation with \*\*CI/CD pipelines\*\*
-
-
-
-\---
-
-
-
-\## 🧰 Tech Stack
-
-
-
-\* \*\*Language:\*\* Python
-
-\* \*\*UI Automation:\*\* Playwright
-
-\* \*\*API Testing:\*\* Postman, Requests (Python)
-
-\* \*\*Test Framework:\*\* Pytest
-
-\* \*\*Design Pattern:\*\* Page Object Model (POM)
-
-\* \*\*Version Control:\*\* Git + GitHub
-
-\* \*\*CI/CD:\*\* GitHub Actions
-
-\* \*\*AI Integration:\*\* ChatGPT (for test case generation \& validation)
-
-
-
-\---
-
-
-
-\## 🌟 Key Features
-
-
-
-✔ End-to-end \*\*UI + API automation\*\*
-
-✔ Scalable framework using \*\*Page Object Model (POM)\*\*
-
-✔ Modular architecture for easy maintenance
-
-✔ AI-generated test cases for better coverage
-
-✔ Integration with CI/CD pipeline
-
-✔ Clean and structured codebase
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-
-
-```
-
-AI-QA-Automation-Framework/
-
+QA-Automation-Framework-Pytest-Playwright-API-UI-CI/
 │
+
+├── pages/ # Page Object Model classes
 
 ├── tests/
 
-│   ├── api/              # API test cases
+      │ ├── ui/ # UI test cases
+      │ ├── api/ # API test cases
+      
+├── api_clients/ # API helper methods
 
-│   └── ui/               # UI test cases
+├── utils/ # Utilities and helpers
 
-│
+├── screenshotss/ # proof of execution
 
-├── pages/                # Page Object Model classes
+├── conftest.py # Fixtures and setup
 
-│
 
-├── api\_clients/          # API request handling logic
+---
 
-│
+## ▶️ Running Tests
 
-├── utils/                # Config, test data, helpers
+```bash
+python -m pytest
 
-│
+🔁 CI/CD Execution (GitHub Actions)
 
-├── ai\_testing/           # AI-based test generation
+This framework is integrated with GitHub Actions to automatically run tests on every push.
 
-│
+📊 Test Execution Results
 
-├── reports/              # Test execution reports
+## Execution Proof
 
-│
+### Local Test Run
+![Test Run](screenshots/test-run.png)
 
-├── requirements.txt      # Dependencies
+### CI/CD Pipeline
+![CI-CD](screenshots/ci-cd-run.png)
 
-├── pytest.ini            # Pytest configuration
+### UI Execution
+![UI](screenshots/ui-test.png)
 
-└── .github/workflows/    # CI/CD pipeline
+### Test Execution Video
+[Watch Execution](screenshots/test-execution.webm)
 
-```
 
+🧪 Sample Test Scenarios
+UI Test – Login Flow
+Navigate to login page
+Enter credentials
+Validate successful login
+Verify dashboard elements
+API Test – User Validation
+Send request to API endpoint
+Validate response status
+Verify response payload
 
+## Test Coverage
 
-\---
+The framework currently includes:
 
+- Positive UI test scenarios
+- Negative UI test scenarios
+- API validation scenarios
 
+The structure is designed to scale easily by adding more modules, pages, and test cases.
 
-\## ⚙️ Setup Instructions
 
+💡 Key Learnings
 
+Built maintainable automation using POM
+Integrated UI + API testing in one framework
+Implemented CI/CD pipeline for automated execution
+Understood real-world SDET workflow
 
-\### 1. Clone the repository
+## Example Test Files
 
+- `tests/ui/test_login_ui.py`
+- `tests/ui/test_login_negative_ui.py`
+- `tests/api/test_users.py`
+- `tests/api/test_negative.py`
 
+## Future Enhancements
 
-```
+Planned improvements for this framework:
 
-git clone https://github.com/YOUR\_USERNAME/AI-QA-Automation-Framework.git
+- HTML or Allure reporting
+- Parallel test execution
+- Better test data management
+- Logging and failure screenshots
 
-cd AI-QA-Automation-Framework
+👩‍💻 Author
 
-```
+Pragya Kapil
 
+Linkedin Profile : https://www.linkedin.com/in/pragya-kapil-qa/
 
+QA Automation Engineer | SDET | Playwright | API Testing
 
-\### 2. Install dependencies
 
-
-
-```
-
-pip install -r requirements.txt
-
-```
-
-
-
-\### 3. Install Playwright browsers
-
-
-
-```
-
-playwright install
-
-```
-
-
-
-\---
-
-
-
-\## ▶️ Running Tests
-
-
-
-\### Run all tests:
-
-
-
-```
-
-pytest
-
-```
-
-
-
-\### Run API tests:
-
-
-
-```
-
-pytest tests/api
-
-```
-
-
-
-\### Run UI tests:
-
-
-
-```
-
-pytest tests/ui
-
-```
-
-
-
-\---
-
-
-
-\## 🤖 AI Testing Module
-
-
-
-This project includes an \*\*AI-assisted testing module\*\* that:
-
-
-
-\* Generates test cases from requirements
-
-\* Suggests edge cases and negative scenarios
-
-\* Improves test coverage using AI insights
-
-
-
-\---
-
-
-
-\## 🔁 CI/CD Integration
-
-
-
-The project uses \*\*GitHub Actions\*\* to:
-
-
-
-\* Automatically run tests on code push
-
-\* Ensure continuous quality validation
-
-\* Maintain build stability
-
-
-
-\---
-
-
-
-\## 📊 Sample Test Coverage (Example)
-
-
-
-\* Login functionality (UI + API validation)
-
-\* User workflows (create, update, fetch)
-
-\* End-to-end scenarios (login → dashboard → actions)
-
-
-
-\---
-
-
-
-\## 🔮 Future Enhancements
-
-
-
-\* Performance testing (JMeter / k6)
-
-\* Docker containerization
-
-\* Advanced AI validation for LLM-based apps
-
-\* Reporting dashboards (Allure / HTML reports)
-
-
-
-\---
-
-
-
-\## 🙋‍♀️ Author
-
-
-
-\*\*Pragya Kapil\*\*
-
-QA Automation Engineer | SDET | AI Testing Enthusiast
-
-
-
-\---
-
-
-
-\## ⭐ Final Note
-
-
-
-This project reflects a \*\*modern QA mindset\*\*, focusing not just on test execution, but on:
-
-
-
-\* System-level thinking
-
-\* Automation at scale
-
-\* AI-driven quality engineering
-
-
-
-\---
-
-
-
- 
