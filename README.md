@@ -37,7 +37,6 @@ Requirement → Analysis → Test → Review
 Simulates real QA workflow using AI agents
 
 🧠 AI Testing Module
-
 Generates structured test cases using prompt-based logic.
 
 📌 Features
@@ -50,10 +49,10 @@ QA-friendly structured output
 python ai_testing/generate_test_cases.py
 
 🤖 AI Orchestrator (Multi-Agent Pipeline)
-
 Simulates how AI agents collaborate in a QA lifecycle.
 
 🧩 Agents
+
 1️⃣ Story Analyzer
 Understands requirement
 Identifies risks
@@ -99,35 +98,47 @@ Generates results automatically
 
 📁 Project Structure
 QA-Automation-Framework/
+
 │
 ├── ai_testing/              # AI test case generator
+
 ├── ai_orchestrator/        # Multi-agent AI pipeline
+
 │
 ├── tests/
 │   ├── ui/
 │   ├── api/
+
 │
 ├── pages/                  # Page Object Model
+
 ├── api_clients/            # API utilities
+
 ├── utils/                  # Config & helpers
+
 │
 ├── screenshots/            # Failure screenshots
+
 ├── test-results/           # Execution outputs
+
 │
 ├── .github/workflows/      # CI/CD pipeline
+
 │
 ├── requirements.txt
+
 └── README.md
 
 # 🏗️ Architecture Diagram
 
 This framework follows a modular, scalable architecture combining traditional QA automation with AI-driven testing components.
 
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram](screenshots/architecture_overview.png)
 
 ▶️ How to Run Locally
+
 1️⃣ Clone repo
-git clone <your-repo-url>
+git clone <[(https://github.com/Pragya-19/QA-Automation-Framework-Pytest-Playwright-API-UI-CI)]>
 cd QA-Automation-Framework
 
 2️⃣ Create virtual environment
@@ -147,6 +158,7 @@ Scenario: Valid login
 Steps: Enter valid credentials  
 Expected Result: Login successful  
 
+
 🚀 Future Enhancements
 Integrate OpenAI API for real AI generation
 Add Allure/HTML reporting
@@ -154,8 +166,11 @@ Parallel execution
 Docker support
 Test data management layer
 
+
 👩‍💻 Author
 
 Pragya Kapil
+
 QA Automation Engineer | SDET | AI Testing Enthusiast
+
 Linkedin :https://www.linkedin.com/in/pragya-kapil-qa
