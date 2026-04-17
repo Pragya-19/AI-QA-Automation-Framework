@@ -58,11 +58,6 @@ AI Layer: Custom Multi-Agent System
 
 
 
-![Test Execution] (screenshots/architecture_overview.png)
-
-
-
-
 
 📂 Project Structure
 
@@ -137,10 +132,6 @@ Automatically generates:
 
 📸 Output:
 
-![AI Orchestrator Pipeline](screenshots/ai_orchestrator_pipeline_output.png)
-![AI Generated Tests]screenshots/ai_generated_tests_execution.png
-
-
 
 
 🧠 AI Orchestrator (Multi-Agent QA Pipeline)
@@ -167,7 +158,7 @@ Headless test execution
 
 📸 CI/CD Run:
 
-![CI/CD Pipeline]/screenshots/ci-cd-run.png
+
 
 
 📊 Test Execution
@@ -178,7 +169,7 @@ Fast execution via Pytest
 📸 Output:
 
 
-![Test Execution]screenshots/test-run.png
+
 
 
 ▶️ Run Locally
