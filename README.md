@@ -63,7 +63,7 @@ AI Layer: Custom Multi-Agent System
 
 
 
-tests/
+ tests/
 
 
   	├── ui/
@@ -72,33 +72,35 @@ tests/
   	├── api/
 
 
-pages/              # Page Object Model
+ pages/              # Page Object Model
 
 
-api_clients/        # API abstraction
+ api_clients/        # API abstraction
 
 
-utils/              # Helpers & configs
-
-
-
-ai_testing/         # AI test generation
-
-
-ai_orchestrator/    # AI pipeline (multi-agent)
+ utils/              # Helpers & configs
 
 
 
-screenshots/        # Execution proof
+ ai_testing/         # AI test generation
 
 
-reports/            # Test outputs
+ ai_orchestrator/    # AI pipeline (multi-agent)
+
+
+
+ screenshots/        # Execution proof
+
+
+ reports/            # Test outputs
 
 
 
 
 🌐 UI Automation Testing
+
 Playwright-based UI testing
+
 Page Object Model (POM)
 
 
