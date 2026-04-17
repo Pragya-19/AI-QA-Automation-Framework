@@ -99,35 +99,49 @@ AI Layer: Custom Multi-Agent System
 
 🌐 UI Automation Testing
 
+
 Playwright-based UI testing
+
 
 Page Object Model (POM)
 
 
 Covers:
+
 Login flows
+
+
 Validation scenarios
+
+
 Negative testing
 
 
 🔌 API Automation Testing
+
 	REST API testing using Requests
 
 
 Covers:
+
 	CRUD operations
+	
 	Negative scenarios
+	
 	Data validation
 
 
 🤖 AI Testing
+
 	🔹 Test Generation
 
 
 Automatically generates:
 
 	Positive scenarios
+	
 	Negative scenarios
+	
 	Edge cases
 
 
@@ -138,12 +152,15 @@ Automatically generates:
 
 🧠 AI Orchestrator (Multi-Agent QA Pipeline)
 
+
 Simulates intelligent QA system:
 
 Agents:
 
 	Story Analyzer → understands requirements
+	
 	Test Generator → creates test cases
+	
 	Review Agent → validates coverage
 
 
@@ -155,8 +172,13 @@ Agents:
 
 
 GitHub Actions integration
+
+
 Automated execution on push
+
+
 Headless test execution
+
 
 📸 CI/CD Run:
 
@@ -166,6 +188,9 @@ Headless test execution
 📊 Test Execution
 
 Unified UI + API test suite
+
+
+
 Fast execution via Pytest
 
 📸 Output:
@@ -209,11 +234,15 @@ python ai_orchestrator/orchestrator.py
 
 End-to-End Automation Framework
 
+
 UI + API + CI/CD Integration
+
 
 AI-driven Test Generation
 
+
 Multi-Agent QA Pipeline
+
 
 Scalable and maintainable architecture
 
@@ -222,11 +251,15 @@ Scalable and maintainable architecture
 
 🚀 Future Enhancements
 
+
 Allure Reporting
+
 
 Parallel execution
 
+
 Docker support
+
 
 LLM-based dynamic execution
 
