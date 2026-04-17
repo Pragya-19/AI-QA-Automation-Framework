@@ -42,6 +42,13 @@ This project introduces an AI-powered QA pipeline that:
 
 🏗️ Architecture
 
+
+## 🏗️ Architecture Overview
+
+![End-to-End QA Pipeline](screenshots/architecture_overview.png)
+
+> 📌 This diagram represents the complete QA pipeline integrating UI automation, API testing, CI/CD, and AI-driven test orchestration.
+
 🔧 Tech Stack
 
 Language: Python
